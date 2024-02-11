@@ -1,0 +1,23 @@
+{
+  "name": "cli-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "template-cli": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.14",
+    "prettier": "^3.2.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "eslint": "^8.56.0"
+  }
+}
